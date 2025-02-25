@@ -20,7 +20,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "angelvargass"
+          git config user.name "fabsswd"
           git config user.email ${{secrets.EMAIL}}
 
       - name: Commit and Push changes
